@@ -20,7 +20,7 @@
 <meta property="og:description" content="This guide is meant to streamline you to your first Kubernetes (k8s) cluster on Microsoft Azure, with the essentials to monitor and scale your container service. In the interest of time/reading, this">
 <meta property="og:locale" content="en">
 <meta property="og:image" content="http://yoursite.com/2017/12/04/kubernetes/kubernetes-on-azure-in-30-min/grafana.png">
-<meta property="og:updated_time" content="2017-12-05T00:14:58.000Z">
+<meta property="og:updated_time" content="2018-01-10T20:27:57.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Kubernetes on Azure in 30 Minutes">
 <meta name="twitter:description" content="This guide is meant to streamline you to your first Kubernetes (k8s) cluster on Microsoft Azure, with the essentials to monitor and scale your container service. In the interest of time/reading, this">
@@ -31,7 +31,6 @@
 
   
 
-  <link rel="icon" href="/css/images/mylogo.jpg">
   <link rel="apple-touch-icon" href="/css/images/mylogo.jpg">
   
     <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
@@ -92,8 +91,9 @@
 
             
               <a class="brand" style="
+                cursor: auto;
                  margin-top: 0px;"  
-                href="#" data-toggle="modal" data-target="#myModal" >
+                href="#" data-target="#myModal" >
                   <img width="124px" height="124px" alt="Hike News" src="/css/images/mylogo.jpg">
               </a>
             
@@ -184,6 +184,12 @@
     <a class="article-category-link" href="/categories/Kubernetes/">Kubernetes</a>
 
       
+	<a class="article-views">
+	<span id="busuanzi_container_page_pv">
+		PV:<span id="busuanzi_value_page_pv"></span>
+	</span>
+	</a>
+
     </div>
     <div class="article-entry" itemprop="articleBody">
       
@@ -316,10 +322,13 @@
   <div class="container">
       	<div class="row">
 	      <p> Powered by <a href="http://hexo.io/" target="_blank">Hexo</a> and <a href="https://github.com/iTimeTraveler/hexo-theme-hiker" target="_blank">Hexo-theme-hiker</a> </p>
-	      <p id="copyRightEn">Copyright &copy; 2013 - 2017 MAMBA MENTALITY All Rights Reserved.</p>
+	      <p id="copyRightEn">Copyright &copy; 2013 - 2018 MAMBA MENTALITY All Rights Reserved.</p>
 	      
 	      
-  		   	<p id="copyRightCn">Wes Yao hold copyright</p>
+    		<p class="busuanzi_uv">
+				UV : <span id="busuanzi_value_site_uv"></span> |  
+				PV : <span id="busuanzi_value_site_pv"></span>
+		    </p>
   		   
 		</div>
 
@@ -412,6 +421,9 @@
 
 
 
+	<script async src="//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js">
+	</script>
+
 
 
 
@@ -462,7 +474,7 @@
             MAMBA MENTALITY
           </div>
           <div class="panel-body">
-            Copyright © 2017 Wes Yao All Rights Reserved.
+            Copyright © 2018 Wes Yao All Rights Reserved.
           </div>
         </div>
       </div>

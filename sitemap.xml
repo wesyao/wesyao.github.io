@@ -2,16 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://yoursite.com/about/index.html</loc>
+    <loc>http://yoursite.com/2017/12/04/kubernetes/kubernetes-on-azure-in-30-min/</loc>
     
-    <lastmod>2017-12-27T10:24:54.000Z</lastmod>
+    <lastmod>2018-01-10T20:27:57.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://yoursite.com/2017/12/04/kubernetes/kubernetes-on-azure-in-30-min/</loc>
+    <loc>http://yoursite.com/about/index.html</loc>
     
-    <lastmod>2017-12-05T00:14:58.000Z</lastmod>
+    <lastmod>2017-12-27T10:24:54.000Z</lastmod>
     
   </url>
   
